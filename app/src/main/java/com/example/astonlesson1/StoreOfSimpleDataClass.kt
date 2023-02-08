@@ -1,6 +1,7 @@
 package com.example.astonlesson1
 
 import android.util.Log
+import kotlin.math.log
 
 class StoreOfSimpleDataClass {
     private var store: MutableList<SimpleDataClass> = arrayListOf()
@@ -15,5 +16,12 @@ class StoreOfSimpleDataClass {
     }
     fun clearTheStore(){
         store.clear()
+    }
+    fun printTheStore(){
+        Log.i("store", "________________________\n")
+        for(element in store){
+            Log.i("store", element.toString() + '\n')
+        }
+        Log.i("store", "________________________\n")
     }
 }
