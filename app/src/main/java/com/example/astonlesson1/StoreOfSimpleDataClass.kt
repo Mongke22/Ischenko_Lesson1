@@ -2,7 +2,7 @@ package com.example.astonlesson1
 
 import android.util.Log
 
-class PrinterOfSimpleDataClass {
+class StoreOfSimpleDataClass {
     private var store: MutableList<SimpleDataClass> = arrayListOf()
     fun addNewEntry(simpleDataClass: SimpleDataClass){
         Log.i("SimpleDataClass", "inserted")
