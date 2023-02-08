@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var rgScope: RadioGroup
     lateinit var textView: TextView
     var nullableString: String? = null
-
+    /*
+        some extra code
+    */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
